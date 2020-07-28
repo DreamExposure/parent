@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <maven.plugin.deploy.version>3.0.0-M1</maven.plugin.deploy.version>
+        <maven.plugin.compiler.version>3.8.1</maven.plugin.compiler.version>
+        <maven.plugin.shade.version>3.2.4</maven.plugin.shade.version>
+        <maven.plugin.jar.version>3.2.0</maven.plugin.jar.version>
+        <maven.plugin.exec.version>3.0.0</maven.plugin.exec.version>
+    </properties>
+
+    <groupId>org.dreamexposure</groupId>
+    <artifactId>DreamExposure-Parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <distributionManagement>
+        <repository>
+            <id>nova-release-pub</id>
+            <name>Releases</name>
+            <url>https://locahost:8081/repository/nova-release-pub/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nova-snapshots-pub</id>
+            <name>Snapshots</name>
+            <url>https://localhost:8081/repository/nova-snapshots-pub/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>nova-public</id>
+            <url>https://repo.novafox161.com/repository/nova-public/</url>
+        </repository>
+        <repository>
+            <id>nova-private</id>
+            <url>https://repo.novafox161.com/repository/nova-private/</url>
+        </repository>
+        <repository>
+            <id>jcenter</id>
+            <url>https://jcenter.bintray.com</url>
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+        <repository>
+            <id>spring-releases</id>
+            <url>https://repo.spring.io/libs-release</url>
+        </repository>
+        <repository>
+            <id>snapshots-repo</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spring-releases</id>
+            <url>https://repo.spring.io/libs-release</url>
+        </pluginRepository>
+    </pluginRepositories>
+</project>

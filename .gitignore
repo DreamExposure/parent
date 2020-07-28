@@ -1,0 +1,21 @@
+# IntelliJ
+.idea
+
+# Eclipse
+.classpath
+.project
+.settings
+
+# Netbeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Build artifacts
+*.jar
+out/
+target/
+**/bin/
