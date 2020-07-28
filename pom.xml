@@ -20,12 +20,12 @@
         <repository>
             <id>nova-release-pub</id>
             <name>Releases</name>
-            <url>https://locahost:8081/repository/nova-release-pub/</url>
+            <url>http://locahost:8081/repository/nova-release-pub/</url>
         </repository>
         <snapshotRepository>
             <id>nova-snapshots-pub</id>
             <name>Snapshots</name>
-            <url>https://localhost:8081/repository/nova-snapshots-pub/</url>
+            <url>http://localhost:8081/repository/nova-snapshots-pub/</url>
         </snapshotRepository>
     </distributionManagement>
 
