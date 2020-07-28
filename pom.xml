@@ -4,6 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.testTarget>1.8</maven.compiler.testTarget>
+        <maven.compiler.testSource>1.8</maven.compiler.testSource>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <project.build.targetEncoding>UTF-8</project.build.targetEncoding>
+
         <maven.plugin.deploy.version>3.0.0-M1</maven.plugin.deploy.version>
         <maven.plugin.compiler.version>3.8.1</maven.plugin.compiler.version>
         <maven.plugin.shade.version>3.2.4</maven.plugin.shade.version>
