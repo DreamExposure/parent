@@ -27,25 +27,25 @@
 
     <distributionManagement>
         <repository>
-            <id>nova-release-pub</id>
+            <id>dreamexposure-public-release</id>
             <name>Releases</name>
-            <url>http://localhost:8081/repository/nova-release-pub/</url>
+            <url>https://emily.dreamexposure.org/artifactory/dreamexposure-public-snapshot/</url>
         </repository>
         <snapshotRepository>
-            <id>nova-snapshots-pub</id>
+            <id>dreamexposure-public-snapshot</id>
             <name>Snapshots</name>
-            <url>http://localhost:8081/repository/nova-snapshots-pub/</url>
+            <url>https://emily.dreamexposure.org/artifactory/dreamexposure-public-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 
     <repositories>
         <repository>
-            <id>nova-public</id>
-            <url>https://repo.novafox161.com/repository/nova-public/</url>
+            <id>dreamexposure-public</id>
+            <url>https://emily.dreamexposure.org/artifactory/dreamexposure-public/</url>
         </repository>
         <repository>
-            <id>nova-private</id>
-            <url>https://repo.novafox161.com/repository/nova-private/</url>
+            <id>dreamexposure-private</id>
+            <url>https://emily.dreamexposure.org/artifactory/dreamexposure-private/</url>
         </repository>
         <repository>
             <id>jcenter</id>
