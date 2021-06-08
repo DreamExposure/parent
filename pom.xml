@@ -39,6 +39,7 @@
     </distributionManagement>
 
     <repositories>
+        <!--DreamExposure Repos-->
         <repository>
             <id>dreamexposure-public</id>
             <url>https://emily.dreamexposure.org/artifactory/dreamexposure-public/</url>
@@ -47,9 +48,20 @@
             <id>dreamexposure-private</id>
             <url>https://emily.dreamexposure.org/artifactory/dreamexposure-private/</url>
         </repository>
+        <!--Spigot Repo-->
         <repository>
-            <id>jcenter</id>
-            <url>https://jcenter.bintray.com</url>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+        <!--Bukkit Repo-->
+        <repository>
+            <id>bukkit-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+        </repository>
+        <!--Bungeecord Repo-->
+        <repository>
+            <id>bungeecord-repo</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </repository>
         <repository>
             <id>jitpack.io</id>
@@ -62,9 +74,6 @@
         <repository>
             <id>snapshots-repo</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
         </repository>
     </repositories>
 
