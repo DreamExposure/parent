@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.testTarget>1.8</maven.compiler.testTarget>
-        <maven.compiler.testSource>1.8</maven.compiler.testSource>
+        <maven.compiler.target>16</maven.compiler.target>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.testTarget>16</maven.compiler.testTarget>
+        <maven.compiler.testSource>16</maven.compiler.testSource>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -17,7 +17,7 @@
         <maven.plugin.compiler.version>3.8.1</maven.plugin.compiler.version>
         <maven.plugin.shade.version>3.2.4</maven.plugin.shade.version>
         <maven.plugin.jar.version>3.2.0</maven.plugin.jar.version>
-        <maven.plugin.exec.version>3.0.0</maven.plugin.exec.version>
+        <maven.plugin.exec.version>3.8.1</maven.plugin.exec.version>
     </properties>
 
     <groupId>org.dreamexposure</groupId>
@@ -63,10 +63,17 @@
             <id>bungeecord-repo</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </repository>
+        <!--VaultAPI Repo-->
+        <repository>
+            <id>vault-repo</id>
+            <url>https://nexus.hc.to/content/repositories/pub_releases</url>
+        </repository>
+        <!--Jitpack for stuff-->
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
+        <!--Snapshot repository for some random shit-->
         <repository>
             <id>snapshots-repo</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
@@ -76,7 +83,7 @@
     <pluginRepositories>
         <pluginRepository>
             <id>spring-releases</id>
-            <url>https://repo.spring.io/libs-release</url>
+            <url>https://repo.spring.io/plugins-release</url>
         </pluginRepository>
     </pluginRepositories>
 </project>
